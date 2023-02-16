@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    margin: 30px;
+    background-color: lightgray;
+}
+
+#logo {
+    width: 400px;
+    height: auto;
+}
+
+#tittle {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.container form {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#form-1 {
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+
+#form-1 input {
+    margin-top: 15px;
+    padding-right: 15px;
+    border: 0px;
+    font-size: 15px;
+}
+
+#form-2 {
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+#form-2 input {
+    margin-top: 15px;
+    padding-right: 15px;
+    border: 0px;
+    font-size: 15px;
+}
+
+.linha {
+    background-color: rgb(194, 194, 194);
+    height: 5px;
+    margin: 50px 250px 10px 100px;
+}
+
+#form-3 {
+    font-size: 13spx;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+#form-3 input {
+    margin-left: 5px;
+    padding-right: 15px;
+    border: 0px;
+    font-size: 13px;
+}
+
+#empresa {
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+#empresa input {
+    width: 600px;
+    padding-right: 15px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.assinatura img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: auto;
+    margin-left: 600px;
+    margin-top: -300px;
+}
+
+.footer {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha2{
+    display: flex;
+    align-items: flex-start;
+}
+
+@media print {
+    button {
+        display: none;
+    }
+}

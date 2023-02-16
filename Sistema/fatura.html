@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emitir Fatura</title>
+</head>
+
+<body>
+    <div class="PDF">
+        <div class="header">
+            <img src="images/logo png.png" alt="Logo RDA" id="logo">
+            <h2 id="tittle">INVOICE</h2>
+        </div>
+        <div class="content">
+            <form id="form-1">
+                <label for="CUSTOMER">CUSTOMER</label> <br>
+                <input type="text" placeholder="Digite aqui...">
+            </form>
+            <form id="form-1">
+                <label for="PORT">PORT</label> <br>
+                <input type="text" placeholder="Digite aqui...">
+            </form>
+            <form id="form-1">
+                <label for="PO">PO</label> <br>
+                <input type="text" placeholder="Digite aqui...">
+            </form>
+            <div class="linha2">
+                <form id="form-1">
+                    <label for="ADRESS">ADRESS</label> <br>
+                    <input type="text" placeholder="Digite aqui..."> <br>
+                    <input type="text" placeholder="Digite aqui..."> <br>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+                <form id="form-1">
+                    <label for="VESSEL">VESSEL</label> <br>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+                <form id="form-1">
+                    <label for="DATE">DATE</label> <br>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+            </div>
+
+            <hr>
+
+            <form id="form-2">
+                <label for="SERVICE">SERVICE</label> <br>
+                <input type="text" placeholder="Digite aqui...">
+            </form>
+            <form id="form-2">
+                <label for="QUANTITY">QUANTITY</label> <br>
+                <input type="text" placeholder="Digite aqui...">
+            </form>
+            <form id="form-2">
+                <label for="UNIT PRICE">UNIT PRICE</label> <br>
+                <input type="text" placeholder="Digite aqui...">
+            </form>
+            <form id="form-2">
+                <label for="TOTAL">TOTAL</label> <br>
+                <input type="text" placeholder="Digite aqui...">
+            </form>
+
+            <hr>
+
+            <form id="form-2">
+                <label for="DETAILS">DETAILS</label> <br>
+            </form>
+            <div>
+                <form id="empresa">
+                    <input type="text" placeholder="NOME DA EMPRESA AQUI">
+                </form>
+                <form id="form-3">
+                    <label for="OI:">OI:</label>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+                <form id="form-3">
+                    <label for="PORTO:">PORTO:</label>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+                <form id="form-3">
+                    <label for="NAVIO:">NAVIO:</label>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+                <form id="form-3">
+                    <label for="VIAGEM:">VIAGEM:</label>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+                <form id="form-3">
+                    <label for="DATA DE OPERAÇÃO:">DATA DE OPERAÇÃO:</label>
+                    <input type="text" placeholder="Digite aqui...">
+                </form>
+                <form id="form-3">
+                    <label for="TAXA:">TAXA:</label>
+                    <input type="text" placeholder="Digite aqui...">
+                </form> <br>
+                <div class="assinatura">
+                    <img src="images/Assinatura.png" alt="Assinatura" id="assinatura">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="footer">
+            <div>
+                <p>Travessa Rafael dos Santos Souza</p> <br>
+                <p>nº 90 - Eldorado , CEP 83.206-494</p> <br>
+                <p>Paranaguá - PR - Brasil</p> <br>
+            </div>
+            <div>
+                <p>+55 (41) 99998-4849</p> <br>
+                <p>+55 (41) 99145-4849</p> <br>
+                <p>andpng@hotmail.com</p> <br>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+    <button onclick="window.print( )">Gerar PDF</button>
+
+
+</body>
+
+</html>
